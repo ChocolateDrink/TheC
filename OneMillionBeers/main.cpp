@@ -1,8 +1,8 @@
 #include <Windows.h>
 #include "./texts.h"
 
-int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow) {
-	char path[MAX_PATH] = {};
+INT APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, INT nCmdShow) {
+	CHAR path[MAX_PATH] = {};
 	GetModuleFileNameA(NULL, path, MAX_PATH);
 
 	HKEY handle = NULL;
